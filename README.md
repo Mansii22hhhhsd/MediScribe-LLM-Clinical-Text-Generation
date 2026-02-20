@@ -1,45 +1,59 @@
 🏥 MediScribe – LLM-Based Clinical Text Generation
-Generative AI for Healthcare Documentation
+🤖 AI-Powered Clinical Report Generation
+
+Python PyTorch Transformers NLP Healthcare AI Research Project
+
 📌 Overview
 
 MediScribe is a transformer-based Generative AI system designed to automate clinical documentation.
-The system converts structured patient findings — such as symptoms, diagnosis, and prescribed treatment — into coherent and professionally formatted medical reports using Large Language Models (LLMs).
+It converts structured patient findings into coherent, professionally formatted medical reports using Large Language Models (LLMs).
 
-This project explores the application of generative language models in healthcare and evaluates their performance using standard NLP metrics.
+The project focuses on improving healthcare documentation efficiency while evaluating linguistic quality and contextual accuracy.
 
 ❗ Problem Statement
 
-Clinical documentation is a time-intensive and repetitive task in healthcare environments. Doctors and healthcare professionals spend significant time writing structured medical reports, which may lead to inconsistencies and increased workload.
+Clinical documentation is time-consuming and repetitive.
+Healthcare professionals spend significant time drafting structured medical reports, increasing workload and inconsistencies.
 
-There is a need for an intelligent system capable of generating structured, readable, and contextually accurate clinical reports from medical findings using Generative AI techniques.
+There is a need for an intelligent generative system capable of producing structured, readable, and context-aware clinical reports from medical findings.
 
 🎯 Objectives
 
-Develop an LLM-based system for automated clinical text generation
+Develop an LLM-based clinical report generation system
 
-Convert structured patient findings into complete medical reports
+Convert structured findings into formatted medical reports
 
-Compare different transformer models for generation quality
+Compare transformer models for generation quality
 
-Evaluate generated reports using BLEU and ROUGE metrics
+Evaluate outputs using BLEU and ROUGE metrics
 
-Analyze coherence, fluency, and factual consistency
+Analyze hallucination and prompt sensitivity
 
-Study limitations such as hallucination and prompt sensitivity
+🎯 Use Case
+
+🩺 Assist doctors in drafting reports
+
+📋 Automate routine clinical documentation
+
+🏥 Support hospital record systems
+
+🎓 Medical education simulations
+
+⚡ Reduce documentation workload
 
 🧠 Key Features
 
-✔ Transformer-based clinical text generation
+Transformer-based clinical text generation
 
-✔ Structured input to formatted report conversion
+Structured-to-report conversion pipeline
 
-✔ Multi-model evaluation (GPT-2 / FLAN-T5)
+Multi-model comparison (GPT-2 / FLAN-T5)
 
-✔ Prompt engineering experimentation
+Prompt-controlled generation
 
-✔ Quantitative evaluation metrics
+Quantitative evaluation metrics
 
-✔ Optional Streamlit-based demo interface
+Optional Streamlit demo interface
 
 🏗️ Tech Stack
 🔹 Languages & Frameworks
@@ -64,11 +78,12 @@ T5 – Sequence-to-sequence transformer
 
 Streamlit (UI demonstration)
 
-Matplotlib (result visualization)
+Matplotlib (visualization)
 
 Scikit-learn (evaluation utilities)
 
 ⚙️ Pipeline
+🔄 Workflow
 1️⃣ Input
 
 Symptoms
@@ -107,12 +122,10 @@ Semantic similarity
 
 📊 Results
 
-✅ Generated reports are coherent and medically formatted
+✅ Coherent and medically formatted reports generated
 
-✅ FLAN-T5 produces more structured outputs compared to GPT-2
+✅ FLAN-T5 produces more structured outputs than GPT-2
 
 ⚠ Occasional hallucinated medical details
 
-⚠ Sensitivity to prompt structure
-
-⚠ Performance depends on decoding parameters
+⚠ Output varies with decoding parameters
