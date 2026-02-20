@@ -1,16 +1,16 @@
-# MediScribe-LLM-Clinical-Text-Generation
-LLM-based clinical report generation system using transformer models for healthcare documentation.
-Project
-
+🏥 MediScribe – LLM-Based Clinical Text Generation
+Generative AI for Healthcare Documentation
 📌 Overview
 
-MediScribe is a transformer-based Generative AI system designed to automate clinical documentation. The system converts structured patient findings such as symptoms, diagnosis, and prescribed treatment into coherent and professionally formatted medical reports using Large Language Models (LLMs).
+MediScribe is a transformer-based Generative AI system designed to automate clinical documentation.
+The system converts structured patient findings — such as symptoms, diagnosis, and prescribed treatment — into coherent, professionally formatted medical reports using Large Language Models (LLMs).
 
-This project explores the application of generative language models in healthcare documentation and evaluates their performance using standard NLP metrics.
+This project explores the application of generative language models in healthcare and evaluates their performance using standard NLP metrics.
 
 ❗ Problem Statement
 
-Clinical documentation is a time-intensive and repetitive task in healthcare environments. Doctors and healthcare professionals spend significant time writing structured medical reports, which may lead to inconsistencies and increased workload.
+Clinical documentation is a time-intensive and repetitive task in healthcare environments.
+Doctors and healthcare professionals spend significant time writing structured medical reports, which may lead to inconsistencies and increased workload.
 
 There is a need for an intelligent system capable of generating structured, readable, and contextually accurate clinical reports from medical findings using Generative AI techniques.
 
@@ -31,11 +31,16 @@ Study limitations such as hallucination and prompt sensitivity
 🧠 Key Features
 
 ✔ Transformer-based clinical text generation
+
 ✔ Structured input to formatted report conversion
+
 ✔ Multi-model evaluation (GPT-2 / FLAN-T5)
+
 ✔ Prompt engineering experimentation
+
 ✔ Quantitative evaluation metrics
-✔ Simple demo interface (optional Streamlit UI)
+
+✔ Simple demo interface (Streamlit UI)
 
 🏗️ Tech Stack
 🔹 Languages & Frameworks
@@ -66,7 +71,7 @@ Scikit-learn (evaluation utilities)
 
 ⚙️ Pipeline
 🔄 Workflow
-Input
+1️⃣ Input
 
 Symptoms
 
@@ -76,13 +81,13 @@ Medication
 
 Observations
 
-Processing
+2️⃣ Processing
 
 Structured formatting
 
 Prompt construction
 
-LLM Inference
+3️⃣ LLM Inference
 
 Tokenization
 
@@ -90,11 +95,11 @@ Transformer-based generation
 
 Controlled decoding (temperature, max_length)
 
-Output
+4️⃣ Output
 
 Structured clinical report
 
-Evaluation
+5️⃣ Evaluation
 
 BLEU Score
 
@@ -105,29 +110,11 @@ Semantic similarity
 📊 Results
 
 ✅ Generated reports are coherent and medically formatted
-✅ FLAN-T5 produces more structured outputs than GPT-2
-⚠️ Occasional hallucinated medical details
-⚠️ Sensitivity to prompt structure
-⚠️ Performance depends on decoding parameters
 
-⚠️ Challenges
+✅ FLAN-T5 produces more structured outputs compared to GPT-2
 
-Maintaining factual correctness
+⚠ Occasional hallucinated medical details
 
-Handling domain-specific terminology
+⚠ Sensitivity to prompt structure
 
-Controlling hallucinations
-
-Ensuring ethical deployment in healthcare
-
-🚀 Future Work
-
-Fine-tuning on domain-specific medical datasets
-
-Integration with Electronic Health Record (EHR) systems
-
-Implementing medical fact-checking modules
-
-Multilingual report generation
-
-Web-based deployment for real-time usage
+⚠ Performance depends on decoding parameters
