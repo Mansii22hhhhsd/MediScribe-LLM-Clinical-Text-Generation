@@ -3,14 +3,13 @@ Generative AI for Healthcare Documentation
 📌 Overview
 
 MediScribe is a transformer-based Generative AI system designed to automate clinical documentation.
-The system converts structured patient findings — such as symptoms, diagnosis, and prescribed treatment — into coherent, professionally formatted medical reports using Large Language Models (LLMs).
+The system converts structured patient findings — such as symptoms, diagnosis, and prescribed treatment — into coherent and professionally formatted medical reports using Large Language Models (LLMs).
 
 This project explores the application of generative language models in healthcare and evaluates their performance using standard NLP metrics.
 
 ❗ Problem Statement
 
-Clinical documentation is a time-intensive and repetitive task in healthcare environments.
-Doctors and healthcare professionals spend significant time writing structured medical reports, which may lead to inconsistencies and increased workload.
+Clinical documentation is a time-intensive and repetitive task in healthcare environments. Doctors and healthcare professionals spend significant time writing structured medical reports, which may lead to inconsistencies and increased workload.
 
 There is a need for an intelligent system capable of generating structured, readable, and contextually accurate clinical reports from medical findings using Generative AI techniques.
 
@@ -40,7 +39,7 @@ Study limitations such as hallucination and prompt sensitivity
 
 ✔ Quantitative evaluation metrics
 
-✔ Simple demo interface (Streamlit UI)
+✔ Optional Streamlit-based demo interface
 
 🏗️ Tech Stack
 🔹 Languages & Frameworks
@@ -70,7 +69,6 @@ Matplotlib (result visualization)
 Scikit-learn (evaluation utilities)
 
 ⚙️ Pipeline
-🔄 Workflow
 1️⃣ Input
 
 Symptoms
