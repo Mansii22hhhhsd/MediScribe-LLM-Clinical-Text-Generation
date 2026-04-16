@@ -1,0 +1,32 @@
+{
+  "name": "genai-medical-symptom-checker-",
+  "version": "1.0.0",
+  "description": "🩺 Medical Symptom Checker & PDF Report Generator\r Real-World AI Assistant for Safer, Smarter Self-Assessment\r Built with Python, Streamlit, OpenAI GPT, and PDF Export",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mansii22hhhhsd/genai-medical-symptom-checker-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mansii22hhhhsd/genai-medical-symptom-checker-/issues"
+  },
+  "homepage": "https://github.com/Mansii22hhhhsd/genai-medical-symptom-checker-#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.4.2",
+    "html2pdf.js": "^0.14.0",
+    "next": "^16.2.4",
+    "openai": "^6.34.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-markdown": "^10.1.0"
+  }
+}
