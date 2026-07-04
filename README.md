@@ -1,3 +1,6 @@
+# Live Demo
+
+ **Try MediScribe:** https://medi-scribe-llm-clinical-text-gener.vercel.app
 # MediScribe: AI Medical Diagnostic Dashboard
 
 MediScribe is a Generative AI-powered clinical symptom checker built with Next.js, React, and Google's Gemini 2.5 Flash Large Language Model.
