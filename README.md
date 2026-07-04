@@ -2,7 +2,7 @@
 
 MediScribe is a Generative AI-powered clinical symptom checker built with Next.js, React, and Google's Gemini 2.5 Flash Large Language Model.
 
-## 🚀 How to Run this Project Locally in VS Code
+## How to Run this Project Locally in VS Code
 
 If you want to run this project on a new computer or present it to an examiner, follow these exact steps.
 
@@ -50,3 +50,30 @@ Once everything is installed, start the local server!
 - **Backend**: Next.js API Routes (`/api/analyze/route.js`)
 - **AI Model**: Google Gemini 2.5 Flash
 - **PDF Generation**: `html2pdf.js`
+
+#  Application Preview
+
+Below is the complete workflow of **MediScribe**, from patient registration to AI-generated clinical report generation.
+
+### Patient Profile
+Enter patient demographics and relevant medical history to provide context for AI-powered clinical analysis.
+<img width="1918" height="908" alt="Screenshot 2026-07-04 171221" src="https://github.com/user-attachments/assets/3f52536e-e243-473f-9803-fe86ab53695b" />
+### Symptom Assessment
+Patients describe their symptoms, which are securely processed by the Gemini AI model.
+<img width="1918" height="910" alt="Screenshot 2026-07-04 171427" src="https://github.com/user-attachments/assets/d5db7eb0-32d3-41f8-a859-8cb4e02082b6" />
+### AI Processing
+The application analyzes patient information and generates a structured clinical assessment.
+<img width="1918" height="907" alt="Screenshot 2026-07-04 171447" src="https://github.com/user-attachments/assets/73eb0dee-ceb2-491b-b671-88a995e7cdc4" />
+### Clinical Report
+View AI-generated possible conditions, medication suggestions, and clinical recommendations.
+<img width="1918" height="905" alt="Screenshot 2026-07-04 171512" src="https://github.com/user-attachments/assets/7038c0a1-4a08-4645-997c-a8e848cdb07f" />
+### Safety Advice & PDF Export
+Receive personalized safety recommendations and download the complete clinical report as a PDF.
+<img width="1915" height="908" alt="Screenshot 2026-07-04 171531" src="https://github.com/user-attachments/assets/6bac748c-dd07-4768-ad9d-2537288b3d7e" />
+
+
+
+
+
+
+
